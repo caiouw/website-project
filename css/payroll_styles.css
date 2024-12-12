@@ -1,0 +1,200 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Lexend Deca', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #f0f4f8;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  position: relative;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(https://upload.wikimedia.org/wikipedia/en/3/3e/Ateneo_De_Davao_University_%28Roxas_Avenue%2C_Davao_City%3B_08-21-2023%29.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.container {
+  background-color: white;
+  padding: 2.5rem;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 800px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 2.5rem;
+    color: #ffffff;
+    font-weight: 600;
+  }
+
+h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 2.5rem;
+  color: #333;
+  font-weight: 600;
+}
+
+label {
+  font-weight: 500;
+  color: #333;
+  display: block;
+  margin-top: 0.5rem;
+}
+
+input {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.1rem;
+  border: 2px solid #e2e8f0;
+  border-radius: 10px;
+  outline: none;
+  margin-bottom: 1rem;
+  transition: all 0.3s ease;
+}
+
+input:focus {
+  border-color: #235b97;
+  box-shadow: 0 0 0 2px rgba(0,123,255,0.1);
+}
+
+button {
+  display: inline-block;
+  font-size: 1.1rem;
+  color: #fff;
+  background-color: #235b97;
+  border: 2px solid #fff;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  margin: 0.5rem 0;
+}
+
+button:hover {
+  background: #333;
+  color: white;
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  background-color: white;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+thead {
+  background-color: #235b97;
+  color: white;
+}
+
+thead tr td {
+  font-weight: bold;
+  padding: 12px;
+  text-align: left;
+}
+
+tbody tr {
+  border-bottom: 1px solid #e2e8f0;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f1f5f9;
+}
+
+tbody td, tfoot td {
+  padding: 10px;
+  text-align: left;
+}
+
+tfoot {
+  background-color: #f1f5f9;
+  font-weight: bold;
+}
+
+.ndata {
+  text-align: right;
+  font-weight: bold;
+  color: #235b97;
+}
+
+dialog {
+  border: none;
+  border-radius: 20px;
+  padding: 2.5rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 90%;
+  width: 400px;
+}
+
+dialog::backdrop {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+dialog h4 {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #333;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.dlgbuttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.dlgbuttons button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+}
+
+.link {
+  display: inline-block;
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  margin-top: 1rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.link:hover {
+  background: #2d3436;
+  color: white;
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  position: absolute;
+  margin-top: 200px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #235b97;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}

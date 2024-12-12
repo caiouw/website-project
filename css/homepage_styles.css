@@ -1,0 +1,144 @@
+@font-face{
+    src: url(/fonts/Trajan-Regular.ttf);
+    font-family: "Trajan", serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f4f8;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(https://upload.wikimedia.org/wikipedia/en/3/3e/Ateneo_De_Davao_University_%28Roxas_Avenue%2C_Davao_City%3B_08-21-2023%29.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+main {
+    background: rgb(0, 0, 0);
+    padding: 2.5rem;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    width: 900px;
+    text-align: center;
+}
+
+.header-title {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.description {
+    color: #ffffff;
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    font-family: "Lexend Deca", sans-serif;
+
+}
+.link-container {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: 2rem;
+    justify-content: space-around;
+}
+
+.link {
+    display: block;
+    padding: 1rem 2rem;
+    background: #235b97;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 15px;
+    transition: all 0.75s ease;
+    font-weight: 500;
+    width: 50%;
+    height: 500px;
+    font-size: 25px;
+    font-family: "Lexend Deca", sans-serif;
+}
+
+.link:hover {
+    background: #333;
+    color: white;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+#conv:hover {
+    background-image: url(https://images.pexels.com/photos/6424587/pexels-photo-6424587.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+#tax:hover {
+    background-image: url(https://media.istockphoto.com/id/961552954/photo/team-of-business-partners-doing-paperwork-while-sitting-at-table.jpg?s=612x612&w=0&k=20&c=Ip1DtJYYoZxnFLakqKLyzSOWiOKaRcTfrnyGYfw4KmY=);
+    background-size: cover;
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+#factorial:hover {
+    background-image: url(https://flux-image.com/_next/image?url=https%3A%2F%2Fai.flux-image.com%2Fflux%2F482c1e72-a750-430c-b4bc-ef24ca6dda70.png&w=3840&q=75);
+    background-size: cover;
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+#payroll:hover {
+    background-image: url(https://media.gettyimages.com/id/1501212850/video/high-angle-close-up-of-woman-counting-one-hundred-dollar-bills-into-hand-of-customer-vertical.jpg?s=640x640&k=20&c=4MwuQ6tjKxZ7A-n31-VCJYPNmqOZsdm2ZsRxkeTOKt4=);
+    background-size: cover;
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.heading {
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    z-index: 2; 
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+}
+
+.heading img {
+    max-width: 90px;
+    margin-left: 250px; 
+}
+
+.heading h1 {
+    font-size: 2.5em; 
+    margin-left: 10px;
+    font: "Trajan", serif;
+    font-weight: lighter;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #235b97;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    font-family: "Lexend Deca", sans-serif;
+
+}
